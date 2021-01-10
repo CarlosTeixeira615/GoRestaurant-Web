@@ -46,7 +46,7 @@ describe('Dashboard', () => {
     const { getByText, getByTestId } = render(<Dashboard />);
 
     await wait(() => expect(getByText('Ao molho')).toBeTruthy(), {
-      timeout: 200,
+      timeout: 400,
     });
 
     expect(getByText('Ao molho')).toBeTruthy();
@@ -129,7 +129,7 @@ describe('Dashboard', () => {
     });
 
     await wait(() => expect(getByText('Ao molho')).toBeTruthy(), {
-      timeout: 200,
+      timeout: 400,
     });
 
     expect(getByText('Ao molho')).toBeTruthy();
@@ -160,7 +160,7 @@ describe('Dashboard', () => {
     );
 
     await wait(() => expect(getByText('Ao molho')).toBeTruthy(), {
-      timeout: 200,
+      timeout: 400,
     });
 
     expect(getByText('Ao molho')).toBeTruthy();
@@ -217,7 +217,7 @@ describe('Dashboard', () => {
     });
 
     await wait(() => expect(getByText('Veggie')).toBeTruthy(), {
-      timeout: 200,
+      timeout: 400,
     });
 
     expect(getByText('Veggie')).toBeTruthy();
@@ -248,7 +248,7 @@ describe('Dashboard', () => {
     const { getByText, getByTestId } = render(<Dashboard />);
 
     await wait(() => expect(getByText('Ao molho')).toBeTruthy(), {
-      timeout: 200,
+      timeout: 400,
     });
 
     expect(getByText('Ao molho')).toBeTruthy();
@@ -283,7 +283,7 @@ describe('Dashboard', () => {
     const { getByText, getByTestId } = render(<Dashboard />);
 
     await wait(() => expect(getByText('Ao molho')).toBeTruthy(), {
-      timeout: 200,
+      timeout: 400,
     });
 
     expect(getByText('Ao molho')).toBeTruthy();
@@ -311,7 +311,7 @@ describe('Dashboard', () => {
     });
 
     await wait(() => expect(getByText('Ao molho')).toBeTruthy(), {
-      timeout: 200,
+      timeout: 400,
     });
 
     expect(getByText('Ao molho')).toBeTruthy();
@@ -329,7 +329,7 @@ describe('Dashboard', () => {
     });
 
     await wait(() => expect(getByText('Ao molho')).toBeTruthy(), {
-      timeout: 200,
+      timeout: 400,
     });
 
     expect(getByText('Ao molho')).toBeTruthy();
